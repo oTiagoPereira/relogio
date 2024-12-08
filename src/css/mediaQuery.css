@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+    }
+
+    .days {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 0.7rem;
+        gap: 0.5rem;
+        justify-content: space-around;
+        height: 100%;
+        width: 30%;
+    }
+
+    .clock {
+        font-size: 4rem;
+        flex-direction: column;
+        width: 70%;
+    }
+}
